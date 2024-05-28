@@ -28,6 +28,11 @@ let
             ver = "1.9.0";
             sha256 = "1x9d86pswkncyhnzpbx4a1kmn847kjqs0ivishn84h0w6lpf12pc";
           } {};
+          resource-pool = self.callHackageDirect {
+            pkg = "resource-pool";
+            ver = "0.4.0.0";
+            sha256 = "0zlnizx0igwmvpx43mcnk0h58v9lakhwr4g9csy1vj74p7a4hxaz";
+          } {};
         };
       };
     in {
