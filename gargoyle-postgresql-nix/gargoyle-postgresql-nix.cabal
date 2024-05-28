@@ -25,7 +25,7 @@ library
   ghc-prof-options: -fprof-auto-exported
   build-depends:
       base                 >=4.12 && <4.20
-    , bytestring           >=0.10 && <0.12
+    , bytestring           >=0.10 && <0.13
     , gargoyle             >=0.1  && <0.2
     , gargoyle-postgresql  >=0.2  && <0.3
     , which                >=0.2  && <0.3
